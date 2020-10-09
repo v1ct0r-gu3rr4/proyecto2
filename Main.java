@@ -27,7 +27,7 @@ public class Main{
 
 		while(!salida){
 			System.out.println(" ");
-			System.out.println("\t Este programa reporta errores"); 
+			System.out.println("\t Menu opciones"); 
 			System.out.println("\t 1.- Cear un cliente");
 			System.out.println("\t 2.- Eliminar un cliente por la ID"); 
 			System.out.println("\t 3.- Crear una orden");
@@ -209,7 +209,7 @@ public class Main{
 				descripcion = readerOp.nextLine();
 				System.out.println("Tipo : ");
 				nombre = reader.nextLine();
-				System.out.println("Precio:")
+				System.out.println("Precio:");
 				precio = readerOp.nextDouble();
 
 				dato.modificarProducto(idBuscar, canProd, descripcion, nombre,precio);
