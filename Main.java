@@ -45,7 +45,7 @@ public class Main{
 			switch(opcion){
 
 				case 1:
-				System.out.println("que deseas crear:  \n 1.- Empresa \n 2.-rsona Individual");
+				System.out.println("que deseas crear:  \n 1.- Empresa \n 2.-Persona Individual");
 				op1 = reader.nextInt();
 				if(op1 == 1){
 					System.out.println("ingresa los siguientes datos");
